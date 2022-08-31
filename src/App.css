@@ -1,5 +1,19 @@
+/* 
+    Settings CSS 
+*/
+body {
+  margin: 0;
+  top: 0;
+}
+
+/* 
+    Import font
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/* 
+    Style app
+*/
 .App {
   text-align: center;
   font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
