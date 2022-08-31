@@ -1,10 +1,13 @@
 import Header from './conponent/Header';
-
-//import conponent
+import Profile from './conponent/Profile';
 
 function App() {
   return (
-    <Header />
+    <div className="App-container-global">
+      <Header />
+      <Profile />
+    </div>
+      
   );
 }
 

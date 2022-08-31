@@ -1,8 +1,5 @@
-// import style
-import '../assets/css/settings.css';
-import '../assets/css/App.css';
-import '../assets/css/importFont.css';
-import '../assets/css/headerConponent.css';
+// import style conponent
+import './importCss';
 
 // import image
 import logo from '../assets/img/logo.png';
@@ -20,7 +17,9 @@ function Header() {
                 <li className="App-header-list"><a className="App-header-item" href="#"></a>Compétence</li>
                 <li className="App-header-list"><a className="App-header-item" href="#"></a>Contact</li>
                 </ul>
-            <a href={resume} className="App-header-download-cv" target="_blank">CV <img src={rocket} class="App-header-icon-rocket"/></a>
+                <div className="App-header-container-resume">
+                    <a href={resume} className="App-header-download-cv" target="_blank">CV <img src={rocket} class="App-header-icon-rocket"/></a>
+                </div>
             </header>
         </div>
     );

@@ -24,19 +24,30 @@
     transition-duration: 300ms;
 }
 
-.App-header-download-cv {
-    display: flex;
-    align-items: center;
-    border: 1px solid #F2FF00;
-    border-radius: 8px;
-    padding: 0.5em 2em;
-}
-
 .App-header-list:hover {
     cursor: pointer;
     color: #F2FF00;
 }
 
+.App-header-container-resume {
+    display: flex;
+    align-items: center;
+}
+
+.App-header-download-cv {
+    border: 1px solid #F2FF00;
+    border-radius: 8px;
+    padding: 0.5em 2em;
+    transition-duration: 500ms;
+}
+
+.App-header-download-cv:hover {
+    border: 1px solid #F2FF00;
+    color: #080D1A;
+    background-color: #F2FF00;
+}
+
 .App-header-icon-rocket {
     width: 1.2em;
 }
+
