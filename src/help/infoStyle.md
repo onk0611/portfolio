@@ -6,4 +6,4 @@
 ## Colorimetry :
 # Primary Color : #080D1A
 # Secondary Color : #fff (White)
-# Details Color : #F2FF00 (Yellow)
+# Details Color : #0099ff (Yellow)
