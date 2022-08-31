@@ -1,0 +1,17 @@
+/* 
+    Settings CSS 
+*/
+body {
+    margin: 0;
+    top: 0;
+    background-color: #080D1A;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #F2FF00;
+  }
+  
+  li {
+    list-style-type: none;
+  }
